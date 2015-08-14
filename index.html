@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script src="dateUtil.js"></script>
+    <script>
+
+        var date = new Date();
+        var fmt = "yyyy-MM-dd hh:mm:ss";
+        date = dateUtil.addYears(date,1);
+        console.log(dateUtil.DateToString(date,fmt));
+        date = dateUtil.addMonths(date,1);
+        console.log(dateUtil.DateToString(date,fmt));
+        date = dateUtil.addWeeks(date,1);
+        console.log(dateUtil.DateToString(date,fmt));
+        date = dateUtil.addDays(date,1);
+        console.log(dateUtil.DateToString(date,fmt));
+        date = dateUtil.addHours(date,1);
+        console.log(dateUtil.DateToString(date,fmt));
+        date = dateUtil.addMinutes(date,1);
+        console.log(dateUtil.DateToString(date,fmt));
+
+//        console.log(dateUtil.StringToString("201502121234456","yyyy-MM-dd hh:mm:ss"));
+//        console.log(dateUtil.StringToString("201502121234456","yyyy/M/d hh:mm:ss w"));
+//        console.log(dateUtil.StringToString("2015,3,23","yyyy MM dd hh:mm:ss"));
+//        console.log(dateUtil.StringToString("201502121234456","yyyy/M/d hh:mm:ss w"));
+//        console.log(dateUtil.StringToString("201502121234456","yyyy-MM-dd hh:mm:ss"));
+//        console.log(dateUtil.StringToString("201502121234456","yyyy/M/d hh:mm:ss w"));
+//        console.log(dateUtil.StringToString("201502121234456","yyyy-MM-dd hh:mm:ss"));
+//        console.log(dateUtil.StringToString("201502121234456","yyyy/M/d hh:mm:ss w"));
+//
+//        console.log(dateUtil.daysBetween("20150123000000","20150124235959"));
+//        console.log(dateUtil.isLeepYear("2016"));
+
+
+//        var dateStr = dateUtil.StringToDate("2014 01 03 18:20:39");
+//        console.log(dateStr.toLocaleString());
+//        var dateStr = dateUtil.StringToDate("2014 2 3 12:20:20");
+//        console.log(dateStr.toLocaleString());
+//        var dateStr = dateUtil.StringToDate("20140303182039");
+//        console.log(dateStr.toLocaleString());
+//        var dateStr = dateUtil.StringToDate("2014年4月3日18时20分39秒");
+//        console.log(dateStr.toLocaleString());
+//        var dateStr = dateUtil.StringToDate("2014/05/03---ddd00");
+//        console.log(dateStr.toLocaleString());
+//        var dateStr = dateUtil.StringToDate("2014,06,03---ddd00");
+//        console.log(dateStr.toLocaleString());
+//        var dateStr = dateUtil.StringToDate("2014.07.03---ddd00");
+//        console.log(dateStr.toLocaleString());
+//        var dateStr = dateUtil.StringToDate("2014.08.03---ddd00");
+//        console.log(dateStr.toLocaleString());
+//        var dateStr = dateUtil.StringToDate("2014130");
+//        console.log(dateStr.toLocaleString());
+
+//        var timeStr = dateUtil.StringToTime("12:30:00");
+//        console.log(timeStr.toLocaleString());
+//        var timeStr = dateUtil.StringToTime("14:30:00pm");
+//        console.log(timeStr.toLocaleString());
+//        var timeStr = dateUtil.StringToTime("11:30:00pm");
+//        console.log(timeStr.toLocaleString());
+
+    </script>
+<script>
+
+</script>
+</body>
+</html>
